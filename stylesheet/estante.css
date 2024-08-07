@@ -22,3 +22,25 @@
 .carrossel{
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 1440px) {
+    .swiper-slide img{
+        width: 70%;
+    }
+    .swiper{
+        width: 80%;
+        height: 50%;
+        margin: auto;
+    }
+    .swiper-slide{
+        width: 50%;
+        margin-left: 0;
+    }
+    .carrossel{
+        margin: 0 10vw 3em 10vw;
+    }
+    .swiper-slide-next{
+        margin-left: 0;
+    }
+    
+}
